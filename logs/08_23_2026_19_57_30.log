@@ -1,0 +1,12 @@
+[2026-08-23 19:57:32,450] 26 root - INFO - Entered in the data ingestion fuction
+[2026-08-23 19:57:32,450] 29 root - INFO - Reading the dataset as a dataframe
+[2026-08-23 19:57:32,466] 33 root - INFO - train test split started
+[2026-08-23 19:57:32,473] 39 root - INFO - Ingestion of the data is completed
+[2026-08-23 19:57:32,473] 52 root - INFO - Numerical pipeline completed 
+[2026-08-23 19:57:32,473] 61 root - INFO - Categorical pipeline completed
+[2026-08-23 19:57:32,473] 72 root - INFO - preprocessor object created 
+[2026-08-23 19:57:32,473] 91 root - INFO - Obtained preprocessor object
+[2026-08-23 19:57:32,508] 94 root - INFO - Read train data
+[2026-08-23 19:57:32,541] 96 root - INFO - Read test data
+[2026-08-23 19:57:32,548] 119 root - INFO - Applying preprocessor object to input train adn test
+[2026-08-23 19:57:32,573] 135 root - INFO - saving preprocessing object
