@@ -95,19 +95,7 @@ class DataTransformation:
             test_df=pd.read_csv(test_file_path)
             logging.info("Read test data")
 
-            numerical_column=[
-                            'reading_score',
-                            'writing_score'
-                        ]
             
-            categorical_column=[
-                        'gender',
-                        'race_ethnicity',
-                        'parental_level_of_education',
-                        'lunch',
-            
-                        'test_preparation_course'
-                        ]
 
             train_df_input=train_df.drop('math_score',axis=1)
             train_df_target=train_df['math_score']
@@ -143,20 +131,6 @@ class DataTransformation:
 
 
             return( train_arr,test_arr,self.data_transformation_config.preprocessor_obj_file_path)
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
 
 
         except Exception as e:
