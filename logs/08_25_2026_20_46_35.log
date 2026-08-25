@@ -1,0 +1,14 @@
+[2026-08-25 20:46:36,915] 28 root - INFO - Entered in the data ingestion function
+[2026-08-25 20:46:36,929] 31 root - INFO - Reading the dataset as a dataframe
+[2026-08-25 20:46:36,933] 35 root - INFO - train test split started
+[2026-08-25 20:46:36,941] 41 root - INFO - Ingestion of the data is completed
+[2026-08-25 20:46:36,941] 51 root - INFO - Numerical pipeline completed 
+[2026-08-25 20:46:36,941] 60 root - INFO - Categorical pipeline completed
+[2026-08-25 20:46:36,941] 71 root - INFO - preprocessor object created 
+[2026-08-25 20:46:36,941] 90 root - INFO - Obtained preprocessor object
+[2026-08-25 20:46:36,972] 93 root - INFO - Read train data
+[2026-08-25 20:46:36,999] 95 root - INFO - Read test data
+[2026-08-25 20:46:37,008] 106 root - INFO - Applying preprocessor object to input train and test
+[2026-08-25 20:46:37,041] 122 root - INFO - saving preprocessing object
+[2026-08-25 20:46:40,097] 77 root - INFO - Best model found 
+[2026-08-25 20:46:40,104] 87 root - INFO - Best model: Ridge with R2 score: 0.880567179073392

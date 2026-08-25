@@ -14,5 +14,11 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
+# Also log to console so output is visible in the terminal / Colab
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+console_handler.setFormatter(logging.Formatter("[%(asctime)s] %(name)s - %(levelname)s - %(message)s"))
+logging.getLogger().addHandler(console_handler)
+
 if __name__ == "__main__":
     logging.info("Logging has started")
