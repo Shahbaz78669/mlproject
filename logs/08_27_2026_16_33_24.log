@@ -1,0 +1,8 @@
+[2026-08-27 16:33:26,487] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-08-27 16:33:26,492] 97 werkzeug - INFO -  * Debugger PIN: 442-871-007
+[2026-08-27 16:33:28,305] 97 werkzeug - INFO - 10.228.133.231 - - [27/Aug/2026 16:33:28] "GET / HTTP/1.1" 200 -
+[2026-08-27 16:33:34,991] 97 werkzeug - INFO - 10.228.133.231 - - [27/Aug/2026 16:33:34] "GET /predictmarks HTTP/1.1" 200 -
+[2026-08-27 16:33:53,658] 97 werkzeug - INFO - 10.228.133.231 - - [27/Aug/2026 16:33:53] "POST /predictmarks HTTP/1.1" 200 -
+[2026-08-27 16:34:15,484] 97 werkzeug - INFO - 10.228.133.231 - - [27/Aug/2026 16:34:15] "POST /predictmarks HTTP/1.1" 200 -
+[2026-08-27 16:34:35,261] 97 werkzeug - INFO - 10.228.133.231 - - [27/Aug/2026 16:34:35] "POST /predictmarks HTTP/1.1" 200 -
+[2026-08-27 16:37:07,172] 97 werkzeug - INFO -  * Detected change in 'D:\\mlproject\\app.py', reloading

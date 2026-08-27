@@ -1,0 +1,5 @@
+[2026-08-26 23:50:36,297] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-08-26 23:50:36,313] 97 werkzeug - INFO -  * Debugger PIN: 442-871-007
+[2026-08-26 23:50:41,753] 97 werkzeug - INFO - 127.0.0.1 - - [26/Aug/2026 23:50:41] "GET / HTTP/1.1" 200 -
+[2026-08-26 23:50:48,457] 97 werkzeug - INFO - 127.0.0.1 - - [26/Aug/2026 23:50:48] "GET /hii HTTP/1.1" 200 -
+[2026-08-26 23:51:06,602] 97 werkzeug - INFO -  * Detected change in 'D:\\mlproject\\app.py', reloading
